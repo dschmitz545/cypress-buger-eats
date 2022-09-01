@@ -1,0 +1,34 @@
+{
+    "signup": {
+        "name": "Thiago Cunha Lima",
+        "cpf": "44529661369",
+        "email": "thiagocunhalima@naoexiste.com",
+        "whatsapp": "1151937376",
+        "address": {
+            "postalcode": "05742120",
+            "street": "Rua José de Almeida Soares",
+            "number": "1428",
+            "details": "Apto 202",
+            "district": "Jardim Taboão",
+            "city_state": "São Paulo/SP"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cypress/fixtures/images/cnh-digital.jpg"
+    },
+    "cpf_inv": {
+        "name": "Arthur Lourenço Alfradique",
+        "cpf": "221682422AA",
+        "email": "arthur.alfradique@naoexiste.com",
+        "whatsapp": "69980247011",
+        "address": {
+            "postalcode": "05742120",
+            "street": "Rua José de Almeida Soares",
+            "number": "1428",
+            "details": "Apto 202",
+            "district": "Jardim Taboão",
+            "city_state": "São Paulo/SP"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cypress/fixtures/images/cnh-digital.jpg"
+    }
+}

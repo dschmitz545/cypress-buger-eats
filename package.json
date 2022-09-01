@@ -1,0 +1,14 @@
+{
+  "name": "qa-cypress",
+  "version": "1.0.0",
+  "description": "Projeto de testes de aceitação do App BurgerEats",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Diego Schmitz",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^10.6.0"
+  }
+}

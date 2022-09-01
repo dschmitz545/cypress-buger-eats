@@ -11,7 +11,7 @@ class SignupPage {
 
         cy.get('#page-deliver input[placeholder="Nome completo"]').type(deliver.name)
         cy.get('#page-deliver input[name="cpf"]').type(deliver.cpf)
-        cy.get('#page-deliver input[type="email"]').type(deliver.email)
+        cy.get('#page-deliver input[type="text"][placeholder="E-mail').type(deliver.email)
         cy.get('#page-deliver input[placeholder="Whatsapp"]').type(deliver.whatsapp)
 
         cy.get('#page-deliver .field-group input[name="postalcode"]').type(deliver.address.postalcode)

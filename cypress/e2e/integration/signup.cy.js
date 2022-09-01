@@ -1,6 +1,6 @@
 import SignupPage from '../../pages/SignupPage';
 
-describe("Cadastro", function () {
+describe("Signup", function () {
 
     beforeEach(function () {
         cy.fixture('deliver.json').then((massa) => {
@@ -12,7 +12,7 @@ describe("Cadastro", function () {
 
     let signup = new SignupPage()
 
-    it("Usuário deve se tornar um entregador", function () {
+    it("User should be deliver", function () {
 
         signup.go()
         signup.fillForm(this.deliver.signup)
@@ -20,11 +20,18 @@ describe("Cadastro", function () {
         signup.modalContentShouldBe()
     })
 
-    it("CPF Incorreto", function () {
+    it("Invalid document", function () {
 
         signup.go()
         signup.fillForm(this.deliver.cpf_inv)
         signup.submit()
         signup.alertMessageShouldBe("Oops! CPF inválido")
+    })
+
+    it("Incorrent email", function () {
+        signup.go()
+        signup.fillForm(this.deliver.email_inv)
+        signup.submit()
+        signup.alertMessageShouldBe("Oops! Email com formato inválido.")
     })
 })

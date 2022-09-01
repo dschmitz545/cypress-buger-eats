@@ -30,5 +30,21 @@
         },
         "delivery_method": "Moto",
         "cnh": "cypress/fixtures/images/cnh-digital.jpg"
+    },
+    "email_inv": {
+        "name": "Thiago Cunha Lima",
+        "cpf": "44529661369",
+        "email": "@naoexiste.com",
+        "whatsapp": "1151937376",
+        "address": {
+            "postalcode": "05742120",
+            "street": "Rua José de Almeida Soares",
+            "number": "1428",
+            "details": "Apto 202",
+            "district": "Jardim Taboão",
+            "city_state": "São Paulo/SP"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cypress/fixtures/images/cnh-digital.jpg"
     }
 }

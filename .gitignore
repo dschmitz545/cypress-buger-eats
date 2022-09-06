@@ -1,6 +1,5 @@
 *node_modules
 .tool-versions
-package-lock.json
 *.idea
 *.mp4
 *.png

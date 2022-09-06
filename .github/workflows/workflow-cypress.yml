@@ -6,7 +6,9 @@ jobs:
 
   ui-chrome-tests:
     runs-on: ubuntu-latest
-    container: cypress/browsers:node16.14.2-slim-chrome103-ff102
+    container:
+      image: cypress/browsers:node16.14.2-slim-chrome103-ff102
+      options: --user 1001
     strategy:
       fail-fast: false
     steps:

@@ -17,7 +17,8 @@ npm install cypress --save-dev
 .
 .
 "scripts": {
-    "test": "npx cypress open"
+    "test": "npx cypress open",
+    "start": "npx cypress run -b chrome"
   },
 ```
 

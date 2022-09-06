@@ -4,7 +4,8 @@
   "description": "Projeto de testes de aceitação do App BurgerEats",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress open"
+    "test": "npx cypress open",
+    "start": "npx cypress run -b chrome"
   },
   "author": "Diego Schmitz",
   "license": "MIT",
